@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOMIRANHA</title>
+ 	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 	<style type="text/css">
+		 		/* For desktop: */
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+
+		@media only screen and (max-width: 768px) {
+		  /* For mobile phones: */
+		  [class*="col-"] {
+		    width: 100%;
+		  }
+		}
+
+		.flex-container {
+		  display: flex;
+		  background-color: DodgerBlue;
+		  justify-content: center;
+		  margin: 15px;
+		}
+ 	</style>
+
+</head>
+
+<body>
+
+	<header id="header">
+		
+		 <nav id="nav-bar"> <center>
+			<a class="nav-link" href="#topo">Topo</a> 
+			<a class="nav-link" href="#meio">Abertura</a> 
+			<a class="nav-link" href="#fim">Formulário</a> 
+		</center> </nav>
+
+		<img id="header-img" src="https://turbologo.com/articles/wp-content/uploads/2019/10/spiderman.jpg" alt="Logo homiranha">
+		
+	</header>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+	<section id="topo">
+		<center><h1>Homiranha</h1></center>
+		<div class="flex-container">
+		  <div>1</div>
+		  <div>2</div>
+		  <div>3</div>  
+		</div>
+	</section>
+	
+	<section>
+		<h2 id="meio"> Abertura do programa</h2>
+			<center>
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/4_pLqGvqx68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</center>
+	</section>
+
+	<section>
+		<h3 id="fim"> Formulário </h3>
+
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+			  <label for="fname">Nome:</label><br>
+			  <input type="text" id="fname" name="fname" value="Nome"><br>
+			  <label for="email">E-mail:</label><br>
+			  <input type="email" id="email" name="email" placeholder="email" required><br><br>
+			  <input id="submit" type="submit" value="Enviar">
+			</form> 
+	</section>
+</body>
+</html>

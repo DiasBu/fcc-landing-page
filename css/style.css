@@ -1,0 +1,23 @@
+body {
+	 font-family: sans-serif; }
+
+#header-img{
+	margin-left: auto;
+
+ 	width: 10%;
+ 	display:block;
+}
+
+header {
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+}
+
+
+.nav-link{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5 px;
+   }
